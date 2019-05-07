@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1353</width>
+    <height>745</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(204, 0, 0);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="1,1,16,1" columnstretch="2,5">
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>0</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>7</number>
+   </property>
+   <item row="1" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="8,2,2,5">
+     <property name="spacing">
+      <number>11</number>
+     </property>
+     <property name="topMargin">
+      <number>15</number>
+     </property>
+     <property name="bottomMargin">
+      <number>8</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>模式</string>
+       </property>
+       <property name="icon">
+        <iconset resource="imageresource.qrc">
+         <normaloff>:/icon/source/Icon/Measure72x63.ico</normaloff>:/icon/source/Icon/Measure72x63.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+font: 20pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>输出</string>
+       </property>
+       <property name="icon">
+        <iconset resource="imageresource.qrc">
+         <normaloff>:/image/source/Image/Browser128x128.png</normaloff>:/image/source/Image/Browser128x128.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,7">
+     <property name="bottomMargin">
+      <number>11</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/emblem/source/emblem/党徽.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 26pt &quot;Ubuntu&quot;;
+color: rgb(255, 241, 11);
+font-weight:550;</string>
+       </property>
+       <property name="text">
+        <string>   结 果 输 出 工 作 站</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0">
+     <property name="spacing">
+      <number>7</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(238, 238, 236);</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,13,2" columnstretch="2,0">
+        <item row="2" column="1">
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section::hover{
+background-color: qlineargradient(spread:pad, x1:1, y1:0.619318, x2:1, y2:0, stop:0 rgba(69, 205, 248, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QScrollBar::handle::hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustIgnored</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="showGrid">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>新建行</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>新建行</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>新建行</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>新建行</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>属性</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>值</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>不显示候选人编号</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>不显示得票率</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>只显示赞成票数</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Word模板配置</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>母版文件列表</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Word母版</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>配置信息</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,11,2">
+          <item>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>选择Word母版</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}</string>
+            </property>
+            <property name="text">
+             <string>删除母版</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Preferred</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>50</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}</string>
+            </property>
+            <property name="text">
+             <string>生成Word模板</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QTableWidget" name="tableWidget_2">
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section::hover{
+background-color: qlineargradient(spread:pad, x1:1, y1:0.619318, x2:1, y2:0, stop:0 rgba(69, 205, 248, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QScrollBar::handle::hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::ExtendedSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="textElideMode">
+           <enum>Qt::ElideRight</enum>
+          </property>
+          <property name="showGrid">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>类型</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>母板名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>母板路径</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(238, 238, 236);</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3" rowstretch="1,5,1">
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>50</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}</string>
+            </property>
+            <property name="text">
+             <string>删除模板</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(255, 241, 11);
+}
+QPushButton::hover{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+	background-color: rgb(237, 212, 0);
+}
+QPushButton::pressed{
+font: 14pt &quot;Ubuntu&quot;;
+border-color: rgb(255, 159, 53);
+background-color: rgb(245, 121, 0);
+}</string>
+            </property>
+            <property name="text">
+             <string>另存为</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTableWidget" name="tableWidget_3">
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section::hover{
+background-color: qlineargradient(spread:pad, x1:1, y1:0.619318, x2:1, y2:0, stop:0 rgba(69, 205, 248, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QScrollBar::handle::hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOn</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOn</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="showGrid">
+           <bool>false</bool>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>类型</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>模板名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>新建列</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Word模板</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,4,1,11">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+image: url(:/icon/source/Icon/BlueScreen32x32.ico);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>   服务器名:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/icon/source/Icon/Correct96x96.ico);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,1,18,1,7">
+     <property name="leftMargin">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/image/source/Image/ws_Running14x14.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>工作中</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/icon/source/Icon/BlueScreen32x32.ico);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>本机计算机名:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="15,1,1,1,1">
+     <item>
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:pad, x1:0.515, y1:0.642, x2:0.51, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::hover{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:reflect, x1:0.433, y1:0.966, x2:0.437, y2:0.466318, stop:0.262887 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::pressed{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0.239, x2:0.50532, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:pad, x1:0.515, y1:0.642, x2:0.51, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::hover{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:reflect, x1:0.433, y1:0.966, x2:0.437, y2:0.466318, stop:0.262887 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::pressed{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0.239, x2:0.50532, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>o</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:pad, x1:0.515, y1:0.642, x2:0.51, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::hover{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:reflect, x1:0.433, y1:0.966, x2:0.437, y2:0.466318, stop:0.262887 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::pressed{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0.239, x2:0.50532, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:pad, x1:0.515, y1:0.642, x2:0.51, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::hover{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+background-color: qlineargradient(spread:reflect, x1:0.433, y1:0.966, x2:0.437, y2:0.466318, stop:0.262887 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton::pressed{
+color: rgb(255, 255, 255);
+font: 15pt &quot;Ubuntu&quot;;
+font-weight:600;
+border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0.239, x2:0.50532, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="imageresource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1323</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1254</x>
+     <y>933</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1252</x>
+     <y>14</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1261</x>
+     <y>916</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>showMaximized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1199</x>
+     <y>13</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>990</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>GetMotherWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>506</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>375</x>
+     <y>990</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>DeleteTableWidget2Line()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>553</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>574</x>
+     <y>1138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>DeleteTableWidget3Line()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1208</x>
+     <y>665</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1151</x>
+     <y>1293</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget_2</sender>
+   <signal>cellDoubleClicked(int,int)</signal>
+   <receiver>Form</receiver>
+   <slot>OpenFile2(int,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>721</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>807</x>
+     <y>1138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget_3</sender>
+   <signal>cellDoubleClicked(int,int)</signal>
+   <receiver>Form</receiver>
+   <slot>OpenFile3(int,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>591</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>641</x>
+     <y>982</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>ShowResultWidget()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1018</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-6</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>GetTemplateWord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1006</x>
+     <y>348</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>946</x>
+     <y>990</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>GetMotherWord()</slot>
+  <slot>GetTemplateWord()</slot>
+  <slot>SelectContent(int,int)</slot>
+  <slot>DeleteTableWidget2Line()</slot>
+  <slot>DeleteTableWidget3Line()</slot>
+  <slot>OpenFile2(int,int)</slot>
+  <slot>OpenFile3(int,int)</slot>
+  <slot>ShowResultWidget()</slot>
+  <slot>slot1()</slot>
+ </slots>
+</ui>
